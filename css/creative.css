@@ -252,6 +252,30 @@ header.masthead p {
   }
 }
 
+#Debate { /*Responsive Debate It Text at Header*/
+  position: relative;
+  display: inline-block;
+  color: #0f2f4d;
+  overflow: hidden;
+  background: linear-gradient(to right, #0f2f4d , #0f2f4d 50%, #1a67a8 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+}
+
+#Debate:hover { /*Responsive Debate It Text at Header*/
+  background-position: 0 100%;
+}
+
+#Debate:hover > .exclamation::before { /*Responsive Exclamation Point*/
+  content: "!";
+}
+
+
+
 @media (min-width: 1200px) {
   header.masthead h1 {
     font-size: 4rem;
