@@ -5,12 +5,12 @@
  */
 
  :root {
-  --ligth-color: #f4f3ee;
-  --text-color: #2d2d2a;
-  --torrado-color: #ebb582;
-  --salmao-color: #Ef7e5e;
-  --burgundy-color: #ab350c;
-  --brown-color:#785a46;
+  --ligth: #f4f3ee;
+  --blue: #2d2d2a;
+  --torrado: #ebb582;
+  --coral: #Ef7e5e;
+  --red: #ab350c;
+  --brown:#785a46;
   
 }
 
@@ -23,7 +23,7 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Karla', sans-serif;
 }
 
 hr {
@@ -49,48 +49,34 @@ a:hover {
   color: #1a67a8;
 }
 
-@font-face {
-  font-family: "Gilroy";
-  src: url("../img/2020/webfont/gilroy-bold-webfont.woff") format('woff');
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: "Gilroy";
-  src: url("../img/2020/webfont/gilroy-regular-webfont.woff") format('woff');
-  font-weight: default;
-}
-
-@font-face {
-  font-family: "Gilroy";
-  src: url("../img/2020/webfont/gilroy-lightitalic-webfont.woff") format('woff');
-  font-style: italic;
-}
 
 h1,
 h2,
 h3,
 h4,
 h5,
-h6{font-family: "Gilroy"};
+h6{font-family: "Karla"};
 
-.bg-blue {
-  background-color: #1a67a8 !important;
+
+
+.torrado {
+  background-color:  #ebb582 !important;
 }
-.bg-green {
-  background-color: #0e770a !important;
+
+.light {
+  background-color:  #f4f3ee!important;
 }
-.bg-yellow {
-  background-color: #f0a120 !important;
+.coral {
+  background-color: #Ef7e5e !important;
 }
-.bg-dark {
-  background-color: #212529 !important;
+.brown {
+  background-color:#785a46 !important;
 }
-.bg-darkblueVIsc20 {
-  background-color: #0f2f4d !important;
+.blue {
+  background-color: #2d2d2a !important;
 }
-.bg-lightblueVIsc20 {
-  background-color: #1f7a8c !important;
+.red {
+  background-color:#ab350c !important;
 }
 
 .text-faded {
@@ -135,7 +121,7 @@ img::-moz-selection {
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #fff;
-  font-family: 'Gilroy';
+  font-family: 'Karla';
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
@@ -143,7 +129,7 @@ img::-moz-selection {
 #mainNav .navbar-brand {
   font-weight: 700;
   color: #1a67a8;
-  font-family: 'Gilroy';
+  font-family: 'Karla';
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -286,7 +272,9 @@ header.masthead p {
   content: "!";
 }
 
-
+#schedule-regulamento{
+  background-color: var(--burgundy-color);
+}
 
 @media (min-width: 1200px) {
   header.masthead h1 {
@@ -658,4 +646,9 @@ height: 10px;
   height: 100%;
   left: 0;
   top: 0;
+}
+
+
+#header .main{
+  background-color: var(--torrado);
 }
