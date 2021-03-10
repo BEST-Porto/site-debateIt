@@ -120,7 +120,7 @@ img::-moz-selection {
 
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-  background-color: var(--h) !important;
+  background-color: var(--torrado) !important;
   font-family: 'Karla';
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
@@ -483,10 +483,10 @@ header.masthead p {
 .team-members {
   width: 100%;
   cursor: pointer;
-  overflow: hidden;
+  overflow :inherit;
   position: relative;
-  margin-bottom: 35px;
-  height: 28vh;
+  margin-bottom: 75px;
+  height: 35vh;
 }
 
 .team-members .team-avatar {
