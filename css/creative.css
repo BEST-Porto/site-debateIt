@@ -5,6 +5,7 @@
  */
 
  :root {
+<<<<<<< HEAD
   --ligth-color: #f4f3ee;
   --text-color: #2d2d2a;
   --torrado-color: #ebb582;
@@ -12,6 +13,15 @@
   --burgundy-color: #ab350c;
   --brown-color:#785a46;
   
+=======
+  --ligth: #f4f3ee;
+  --blue:#f4f3ee;
+  --torrado: #ebb582;
+  --coral: #Ef7e5e;
+  --red: #ab350c;
+  --brown:#785a46;
+  --h: #2d2d2a;
+>>>>>>> main
 }
 
 
@@ -23,7 +33,7 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Karla', sans-serif;
 }
 
 hr {
@@ -40,57 +50,43 @@ hr.blue {
 }
 
 a {
-  color: #1a67a8 ;
+  color: var(--blue) ;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 a:hover {
-  color: #1a67a8;
+  color:var(--blue);
 }
 
-@font-face {
-  font-family: "Gilroy";
-  src: url("../img/2020/webfont/gilroy-bold-webfont.woff") format('woff');
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: "Gilroy";
-  src: url("../img/2020/webfont/gilroy-regular-webfont.woff") format('woff');
-  font-weight: default;
-}
-
-@font-face {
-  font-family: "Gilroy";
-  src: url("../img/2020/webfont/gilroy-lightitalic-webfont.woff") format('woff');
-  font-style: italic;
-}
 
 h1,
 h2,
 h3,
 h4,
 h5,
-h6{font-family: "Gilroy"};
+h6{font-family: "Karla"};
 
-.bg-blue {
-  background-color: #1a67a8 !important;
+
+
+.torrado {
+  background-color:  #ebb582 !important;
 }
-.bg-green {
-  background-color: #0e770a !important;
+
+.light {
+  background-color:  #f4f3ee!important;
 }
-.bg-yellow {
-  background-color: #f0a120 !important;
+.coral {
+  background-color: #Ef7e5e !important;
 }
-.bg-dark {
-  background-color: #212529 !important;
+.brown {
+  background-color:#785a46 !important;
 }
-.bg-darkblueVIsc20 {
-  background-color: #0f2f4d !important;
+.blue {
+  background-color: #2d2d2a !important;
 }
-.bg-lightblueVIsc20 {
-  background-color: #1f7a8c !important;
+.red {
+  background-color:#ab350c !important;
 }
 
 .text-faded {
@@ -134,16 +130,26 @@ img::-moz-selection {
 
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+<<<<<<< HEAD
   background-color:var(--ligth-color);
   font-family: 'Gilroy';
+=======
+  background-color: var(--torrado) !important;
+  font-family: 'Karla';
+>>>>>>> main
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 #mainNav .navbar-brand {
   font-weight: 700;
+<<<<<<< HEAD
   color: var(--text-color);
   font-family: 'Gilroy';
+=======
+  color: var(--blue);
+  font-family: 'Karla';
+>>>>>>> main
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -164,7 +170,7 @@ img::-moz-selection {
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: #16130e !important;
+  color:var(--red) !important;
   background-color: transparent;
 }
 
@@ -179,27 +185,28 @@ img::-moz-selection {
     background-color: transparent;
   }
   #mainNav .navbar-brand {
-    color: rgba(255, 255, 255, 0.7);
+    color: var(--blue);
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #0f2f4d;
+    color: var(--blue);
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
     padding: 0.5rem 1rem;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: #1a67a8;
+    color:var(--blue);
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #0f2f4d;
+    color: var(--red);
   }
   #mainNav.navbar-shrink {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
+<<<<<<< HEAD
     color:var(--text-color);
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
@@ -208,17 +215,26 @@ img::-moz-selection {
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
     color:var(--text-color);
+=======
+    color: var(--blue);
+  }
+  #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
+    color: var(--red);
+  }
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
+    color:var(--blue);
+>>>>>>> main
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #070605;
+    color: var(--red);
   }
 }
 
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  /*background:url(../img/2020/header2_sc20.jpg);*/
   background-position: center center;
   background-size: cover;
 }
@@ -264,19 +280,6 @@ header.masthead p {
   }
 }
 
-#Debate { /*Responsive Debate It Text at Header*/
-  position: relative;
-  display: inline-block;
-  color: #0f2f4d;
-  overflow: hidden;
-  background: linear-gradient(to right, #0f2f4d , #0f2f4d 50%, #1a67a8 50%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-size: 200% 100%;
-  background-position: 100%;
-  transition: background-position 275ms ease;
-}
 
 #Debate:hover { /*Responsive Debate It Text at Header*/
   background-position: 0 100%;
@@ -286,7 +289,9 @@ header.masthead p {
   content: "!";
 }
 
-
+#schedule-regulamento{
+  background-color: var(--burgundy-color);
+}
 
 @media (min-width: 1200px) {
   header.masthead h1 {
@@ -364,26 +369,47 @@ header.masthead p {
   }
 }
 
+.navbar-toggler .navbar-toggler-right{
+  color: var(--blue);
+}
+
+.navbar-toggler .navbar-toggler-right .navbar-toggler-icon{
+ color: var(--blue);
+}
 .text-primary {
   color: #f0a120  !important;
 }
 
+.text-overflow-center .text-nowrap .js-scroll-trigger .float-sm-center {
+  margin-left: -100%;
+  margin-right: -100%;
+  text-align: center;
+}
+
 .btn {
-  font-weight: 700;
+  font-weight: 900;
   text-transform: uppercase;
   border: none;
+  
   border-radius: 300px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Karla', sans-serif;
 }
 
 .btn-xl {
-  padding: 1rem 2rem;
+  padding: 1rem 1.5rem;
+}
+
+.btn-big{
+  box-sizing: content-box;
+  font-size: x-large;
+  padding: 1.5rem 1.5rem;
 }
 
 .btn-primary {
-  color:#0f2f4d;
-  background-color: #9ee3da;
-  border-color: #9ee3da;
+ 
+  color:var(--ligth);
+  background-color: var(--red);
+  border-color: var(--red);
   line-height: 0.5rem;
   margin-top: 1rem ;
   border-radius: 44px;
@@ -391,7 +417,7 @@ header.masthead p {
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #ffff;
-  background-color: #b1db3b !important;
+  background-color:var(--coral) !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
@@ -412,7 +438,7 @@ header.masthead p {
   transition: all .3s ease;
 }
 .footer a:hover {
-  color:  #1a67a8;
+  color:  var(--red)
 }
 .footer-copyright {
   background: rgb(24, 24, 24);
@@ -421,7 +447,7 @@ header.masthead p {
   color: white;
 }
 .bg-image {
-  background-image: url("img/porto.jpg"); /* The image used */
+  
   background-color: #cccccc; /* Used if the image is unavailable */
   height: auto; /* You must set a specified height */
   background-position: center; /* Center the image */
@@ -488,10 +514,10 @@ header.masthead p {
 .team-members {
   width: 100%;
   cursor: pointer;
-  overflow: hidden;
+  overflow :inherit;
   position: relative;
-  margin-bottom: 35px;
-  height: 28vh;
+  margin-bottom: 75px;
+  height: 35vh;
 }
 
 .team-members .team-avatar {
@@ -658,4 +684,16 @@ height: 10px;
   height: 100%;
   left: 0;
   top: 0;
+}
+
+
+#header .main{
+  background-color: var(--torrado) !important;
+}
+
+
+.align-items-center .main-buttons{
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
 }

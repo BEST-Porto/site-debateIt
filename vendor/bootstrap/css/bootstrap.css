@@ -6464,13 +6464,13 @@ button.bg-light:focus {
   background-color: #dae0e5 !important;
 }
 
-.bg-dark {
+.brown {
   background-color: #343a40 !important;
 }
 
-a.bg-dark:hover, a.bg-dark:focus,
-button.bg-dark:hover,
-button.bg-dark:focus {
+a.brown:hover, a.brown:focus,
+button.brown:hover,
+button.brown:focus {
   background-color: #1d2124 !important;
 }
 
