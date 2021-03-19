@@ -133,19 +133,19 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #f0a120;
+  color: var(--ligth);
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
   font-size: .9rem;
   font-weight: 700;
-  color: #f0a120;
+  color: var(--ligth);
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #f0a120;
+  color: var(--ligth);
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
@@ -247,6 +247,21 @@ header.masthead p {
   header.masthead h2 {
     font-size: 1.5rem;
   }
+}
+
+.img-fluid {
+  max-width: 80%;
+
+  height: auto;
+  margin: 20px 60px 20px 10px;
+}
+
+.img-fluid { /*Time of Responsive Logos*/
+  transition: transform .6s;
+}
+
+.img-fluid:hover{ /*Size of Responsive Logos*/
+  transform : scale(0.9);
 }
 
 
@@ -397,7 +412,7 @@ header.masthead p {
 
 /*footer*/
 .footer {
-  background: rgb(24, 24, 24);
+  background: var(--h);
   padding: 10px 0;
 }
 .footer a {
@@ -410,7 +425,7 @@ header.masthead p {
   color:  var(--red)
 }
 .footer-copyright {
-  background: rgb(24, 24, 24);
+  background: var(--h);
   padding: 10px 0;
   font-size: 11px;
   color: white;
@@ -432,13 +447,25 @@ header.masthead p {
   position:relative;
   height:0;
   }
-  .map-container-2 iframe{
+
+.map-container-2 iframe{
   left:0;
   top:0;
   height:70%;
   width:100%;
   position:absolute;
   }
+
+.img-thumbnail { /*Time of Responsive Logos*/
+  transition: transform .9s;
+}
+
+.img-thumbnail:hover{ /*Size of Responsive Logos*/
+  transform : scale(0.9);
+}
+  
+
+
 /*=============== team ===============*/
 
 .content {
@@ -518,7 +545,7 @@ header.masthead p {
   left: auto;
   bottom: 0;
   width: 100%;
-  padding: 0 20px;
+  padding: 10px 20px 60px;
   position: absolute;
   opacity: 0;
   color: #fff;
