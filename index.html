@@ -28,6 +28,8 @@
     <!--Favicon -->
     <link rel="shortcut icon" href="img/favicon.png" />
 
+    
+
 </head>
 
 <body id="page-top">
@@ -36,12 +38,12 @@
     <nav class="navbar navbar-expand-xl  fixed-top" id="mainNav">
         <div class="container">
             <a class="navbar-brand js-scroll-trigger" href="https://bestporto.org"><img src="img/2020/logobest4.png"
-                    width="100%"></a>
+                    width="85%"></a>
 
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                 data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon" ></span>
+                aria-label="Toggle navigation" style="color:white">
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
@@ -110,73 +112,20 @@
                                  href="#about_event">Saber Mais</a>
                         </div>
                     </div>
-                    </div>
+                 </div>
             </div>
-           
-            <div class="mt-1">
-                <div class='row'>
-                    <div class=" mx-auto">
-                        <!--<a class="btn btn-primary btn-xl js-scroll-trigger float-sm-left" style="width:13rem"
-                               target="_blank" href="https://www.best.eu.org/courses/list.jsp">Apply</a>-->
-                    </div>
-                </div>
-                <div class="row">
-                    <div class=" mx-auto">
-                        <!--<a class="btn btn-primary btn-xl js-scroll-trigger float-sm-right" style="width:13rem;"
-                               href="#about_course">Saber mais</a>-->
-                    </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <p id="countdown" style="text-align: center;font-size: 40px; font-family:'Karla';background-color: #ebb582;
+                    color: #2d2d2d;" onmousemove="timer()" >Data do evento : 17 de Abril de 2021</p>   
+                    
                 </div>
             </div>
         </div>
         
     </header>
-
-    <style>
-        #demo {
-          text-align: center;
-          font-size: 60px;
-          font-family: 'Karla';
-          margin-top: 0px;
-          color: #ebb582;
-          background-color: #2d2d2d;
-        }
-        </style>
-        </head>
-        <body>
-        
-        <p id="demo"></p>
-        
-        <script>
-        // Set the date we're counting down to
-        var countDownDate = new Date("Apr 17, 2021 09:30:00").getTime();
-        
-        // Update the count down every 1 second
-        var x = setInterval(function() {
-        
-          // Get today's date and time
-          var now = new Date().getTime();
-            
-          // Find the distance between now and the count down date
-          var distance = countDownDate - now;
-            
-          // Time calculations for days, hours, minutes and seconds
-          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-            
-          // Output the result in an element with id="demo"
-          document.getElementById("demo").innerHTML = "Tempo Restante para o Evento : " + days + "d " + hours + "h "
-          + minutes + "m " + seconds + "s ";
-            
-          // If the count down is over, write some text 
-          if (distance < 0) {
-            clearInterval(x);
-            document.getElementById("demo").innerHTML = "EVENTO A DECORRER";
-          }
-        }, 1000);
-        </script>
-
+    
+   
 
     <!-- Sobre o debate -->
     <section id="about_event" class="text-dark vertical-center fill">
@@ -197,19 +146,20 @@
                 <div class="col-lg-6 ">
 
                     <p align="justify" class="mb-0">
-                        Bem-vindos ao  evento inovador do BEST Porto! O “Debate It” é um novo evento competitivo baseado 
+                        Bem-vindos ao evento inovador do BEST Porto! O “Debate It” é um novo evento competitivo baseado 
                         na arte do debate, que representa uma ótima oportunidade de aprender soft skills úteis e de 
-                        ganhar um certificado que irá destacar o teu currículo de todos os outros! Mas acima disso, 
+                        ganhar certificados que irão destacar o teu currículo de todos os outros! Mas acima disso, 
                         este evento representa uma experiência acolhedora e de partilha de novas ideias numa variedade 
                         de tópicos na vanguarda da descoberta científica.
                         <br>
                         Tens vontade de partilhar as tuas opiniões sobre a próxima etapa de exploração espacial? 
-                        Consideras que manipulação genética é uma área perigosa ou um novo mundo incrível de oportunidade 
-                        científica? Estás preocupado com a nossa dependência na inteligência artificial? Aproveita esta 
-                        oportunidade  para explorar novas ideias em cada um destes tópicos!
+                        Consideras que manipulação genética é uma área perigosa ou um novo mundo incrível de 
+                        oportunidade científica? Estás preocupado com a dependência na inteligência artificial? 
+                        Aproveita esta oportunidade para explorar novas ideias em cada um destes tópicos!
                         <br>
-                        Se não te sentires confortável em dar a tua opinião neste momento, não faz mal! Nós damos-te 
-                        a oportunidade de te inscreveres apenas como expectador da competição, na parte da tarde. 
+                        Neste evento os participantes terão a oportunidade de participar em duas sessões disponibilizadas 
+                        pelos nossos parceiros, Speak and Lead e a Sociedade de Debates da Universidade do Porto, sobre 
+                        Public Speaking e ar-
                     </p>
 
                 </div>
@@ -217,21 +167,16 @@
             <div class="row">
                 <div class="col-12">
                     <p align="justify">
-                        Assim, podes ouvir os debates nestes tópicos e questionar os participantes no decorrer dos debates.
-                        Este evento é composto, na parte da manhã, por sessões em temas interessantes, dadas pelos nossos 
-                        parceiros: “Speak and Lead” e “Sociedade de Debates da Universidade do Porto”. Nestas sessões, 
-                        irás aprender sobre a importância de Public Speaking e de debater, como melhor organizar o teu 
-                        discurso e expressar as tuas opiniões, através do formato de debates mais aceite e utilizado no 
-                        mundo, o British Parliamentary. Na segunda formação, a SdD:UP irá realizar uma série de mini 
-                        atividades com os participantes, de modo a ganhares conforto a expressar os teus argumentos em 
-                        forma de debate e de te preparar melhor para a competição. Após a pausa de almoço, terás a oportunidade 
-                        de colocar em prática o que terás aprendido, numa competição entusiasmante, composta por três rondas 
-                        de debates.
+                        gumentação, sendo-te atribuído um certificado por cada uma destas instituições.
+                        Após a pausa de almoço, terás a oportunidade de colocar em prática o que terás aprendido, numa 
+                        competição entusiasmante, composta por três rondas de debates.
                         <br>
                         A SdD:UP fornecerá certificados aos participantes e às três equipas melhor classificadas na competição!!! 
                         No caso de te inscreveres como expectador, não terás acesso às formações na parte da manhã, nem a 
                         um certificado por parte da SdD:UP.
                         <br>
+                        No final do dia, as equipas melhor classificadas receberão um certificado adicional e os membros da 
+                        equipa vencedora irão receber um incrível prémio: um curso de Public Speaking da Speak and Lead! 
                         Não percas esta oportunidade de te destacares pelas tuas opiniões e pelo poder do teu discurso! 
                         Este evento irá ocorrer no sábado, dia 17 de abril. Estamos a contar contigo!
                     </p>
@@ -260,7 +205,7 @@
                     <hr class="light my-4">
                     <p class="mb-4">Vê aqui o regulamento do debate</p>
                     <a class="btn btn-light btn-xl sr-button" target="_blank"
-                        href=" https://drive.google.com/file/d/1hx74kbQcrH1AHvRj_eePB8FPB9t3eapN/view?usp=sharing">
+                        href="https://docs.google.com/document/d/17NkwxPzAfDUoDkucK71-XTqrGYLKyZ4g/">
                         Abrir Regulamento</a>
                 </div>
             </div>
@@ -269,33 +214,36 @@
 
     
     <!-- Topics -->
-    <section id="topics" class="vertical-center" style="background-color: white ;">
+    <section id="topics" class="white section vertical-center">
         <div class="container">
             <div class="row">
-                <div class="mx-auto text-center" >
-                    <h2 class="section-heading " >Tópicos</h2>
-                    <hr class=" my-3 ">
+                <div class="mx-auto text-center">
+                    <h2 class="section-heading">Tópicos</h2>
+                    <hr class="my-4">
                 </div>
             </div>
-            <div class="row justify-content-center" style="padding-top: 40px">
-               
-                <div class="col-sm-12 col-md-8">
-                    <div style="text-align: center;">
-                        <h3 class="" align="center">
-                            Inteligência artificial
-                            <br>
-                            Clonagem
-                            <br>
-                            Exploração espacial
-                        </h3>
-                    </div>
-                  
+            <div class="row justify-content-between">
+                <div class="col-md-1 col-xs-0"></div>
+                <div class="col-md-3 col-sm-4 col-xs-4 text-center">
+                    <p>Clonagem</p>
+                    <img class="img-thumbnail" src="./img/clonagem.png" alt="Clonagem" style="width: 100%;">
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-4 text-center">
+                    <p>Exploração Espacial</p>
+                    <img class="img-thumbnail" src="./img/exp1.png" alt="Exploração Espacial" style="width: 100%;"/>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-4 text-center">
+                    <p>Inteligência Artificial</p>
+                    <img class="img-thumbnail" src="./img/ai1.png" alt="Inteligência Artificial" style="width: 100%;"/>
+                </div>
+                <div class="col-md-1 col-xs-0"></div>
             </div>
+
         </div>
     </section>
 
     <!-- Parceiros -->
-    <section id="parceiros" class="red section fill vertical-center">
+    <section id="parceiros" class="red section vertical-center">
         <div class="container">
             <div class="row">
                 <div class="mx-auto text-center">
@@ -305,14 +253,14 @@
             </div>
             <div class="row justify-content-between">
                 <div class="col-md-2 col-xs-0"></div>
-                <div class="col-md-4 col-sm-6 col-xs-6">
+                <div class="col-md-4 col-sm-6 col-xs-6 text-center">
                     <a href="https://ipdj.gov.pt/">
-                        <img class="img-thumbnail" src="./img/LOGO IPDJ.jpg" alt="Logo IPDJ">
+                        <img class="img-thumbnail" src="./img/LOGO IPDJ.jpg" alt="Logo IPDJ" style="width: 80%;">
                     </a>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-6">
+                <div class="col-md-4 col-sm-6 col-xs-6 text-center">
                     <a href="https://www.sdd.up.pt/">
-                        <img class="img-thumbnail" src="./img/sddup.png" alt="Logo SddUp"/>
+                        <img class="img-thumbnail" src="./img/Logo SdDUP.png" alt="Logo SdDUp" style="width: 80%;"/>
                     </a>
                 </div>
                 <div class="col-md-2 col-xs-0"></div>
@@ -343,6 +291,7 @@
                             <div class="team-desc">
                                 <h4>Martin Magano</h4>
                                 <span>Responsável pelo Evento</span>
+                                <a class="text-white" href="mailto:martim.magano@bestporto.org"><i class="fas fa-envelope"></i></a>
                             </div>
                         </div>
                     </div>
@@ -355,6 +304,7 @@
                             <div class="team-desc">
                                 <h4>Matilde Nabais</h4>
                                 <span>Responsável de Conteúdo</span>
+                                <a class="text-white" href="mailto:matilde.nabais@bestporto.org"><i class="fas fa-envelope"></i></a>
                             </div>
                         </div>
                     </div>
@@ -366,6 +316,7 @@
                             <div class="team-desc">
                                 <h4>Andreia Taveira</h4>
                                 <span>Responsável de Marketing</span>
+                                <a class="text-white" href="mailto:andreia.taveira@bestporto.org"><i class="fas fa-envelope"></i></a>
                             </div>
                         </div>
                     </div>
@@ -389,13 +340,13 @@
             </div>
             <div class="row">
                 <div class="col-lg-12 mr-auto text-center">
-                    <i class="fas fa-envelope fa-3x mb-3 sr-contact-2" data-sr-id="7"
+                    <i class="fas fa-envelope fa-3x mb-1 sr-contact-2" data-sr-id="7"
                         style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.4s, transform 0.6s cubic-bezier(0.5, 0, 0, 1) 0.4s;"></i>
                 </div>
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12 text-center" style="padding-bottom:15px; padding-top:31px">
+                    <div class="col-lg-12 text-center" style="padding-bottom:5px; padding-top:10px">
                         <p>
                             <a class="text-white" href="mailto:debate-it@bestporto.org">debate-it@bestporto.org</a>
                         </p>
