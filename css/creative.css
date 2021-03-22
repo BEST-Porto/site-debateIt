@@ -79,6 +79,37 @@ h6{font-family: "Karla"};
   background-color:#ab350c !important;
 }
 
+
+
+.c-torrado {
+  color:  #ebb582 !important;
+}
+
+.c-light {
+ color:  #f4f3ee!important;
+}
+.c-coral {
+  color: #Ef7e5e !important;
+}
+.c-brown {
+  color:#785a46 !important;
+}
+.c-blue {
+  color: #2d2d2a !important;
+}
+.c-red {
+  color:#ab350c !important;
+}
+
+
+
+
+
+
+
+
+
+
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
