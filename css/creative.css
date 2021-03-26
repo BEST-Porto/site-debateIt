@@ -317,16 +317,16 @@ header.masthead p {
 /*Horario*/
 body{margin-top:20px;}
 .timeline {
-    border-left: 3px solid #ebb582;
+    border-left: 3px solid var(--h);
     border-bottom-right-radius: 4px;
     border-top-right-radius: 4px;
-    background: rgba(114, 124, 245, 0.09);
+    
     margin: 0 auto;
     letter-spacing: 0.2px;
     position: relative;
     line-height: 1.4em;
     font-size: 1.03em;
-    padding: 50px;
+    padding: 20px 50px;
     margin-left: 10%;
     list-style: none;
     text-align: left;
