@@ -546,6 +546,11 @@ body{margin-top:20px;}
   box-sizing: content-box;
   font-size: x-large;
   padding: 1.5rem 1.5rem;
+  transition: .6s;
+}
+
+.btn-big:hover{
+  transform:scale(0.95)
 }
 
 .btn-primary {
